@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Bassilos - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            padding: 5px 10px;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        section{
+            position: relative;
+            scroll-margin-top: 18px;
+        }
+        section::before{
+            content: "";
+            display: block;
+            height: 5px;
+            margin-top: 5px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is Tony Bassilos. I am Lebanese born in 2006. I have graduated from school with a Lebanese baccalaureate in GS(general science) section.
+        <br>I am currently first year computer science student in the Lebanese University Faculty of Science Fanar branch.
+        <br>From a young age I was interested in computers and technologies and coding.
+        <br>I am also a musician, I play the piano, the trumpet and the trombone.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education:</h2>
+    <ul>
+        <li><b>University studies:</b></li>
+            <ul>
+                <li>Computer science student at the lebanese university faculty of science - Fanar.</li>
+                <li>Online harvard courses: CS50, Python</li>
+            </ul>
+        <li><b>School:</b></li>
+            <ul>
+                <li>Lebanese baccalaureate in general science, St. Joseph School Daughters of Charity Zouk-Michael.</li>
+            </ul>
+        <li><b>Musical education:</b></li>
+            <ul>
+                <li>Seventh grade in piano at the Lebanese National Higher Conservatory of music. </li>
+                <li>Sixth grade in musical theory at the Lebanese National Higher Conservatory of music.</li>
+                <li>Other: trombone and trumpet.</li>
+            </ul>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1</h3>
+        <p>Arduino robot car that navigate arround the house.</p>
+    </div>
+    <div class="project">
+        <h3>Project 2</h3>
+        <p>Program for students to check their report card depending in which grade their in.(no online access)(developed in python).</p>
+    </div>
+    <div class="project">
+        <h3>Project 3</h3>
+        <p>A report card software for schools, it generates the report card for each student according to the grade that he is in. 
+           It is connected to a database that will be used to store the student informations.(Languages used: python, HTML, CSS, SQL, C)(still under development)
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ol>
+        <li>Technical skills:
+            <ul>
+                <li>Programig(python, C, HTMl, CSS and some knowledge in SQL and Arduino).</li>
+                <li>Softwares: Microsoft access, word, excel, power point, MySQL workbench.</li>
+                <li>Operating systems: know how to use and install Windows, Linux.</li>
+                <li>PC building and hardware assembly.</li>
+            </ul>
+        </li>
+        <br>
+        <li>Soft skills:
+            <ul>
+                <li>Communication – Effectively conveying ideas and collaborating with others.</li>
+                <li>Teamwork – Working efficiently with others to achieve shared goals.</li>
+                <li>Adaptability – Quickly adjusting to new situation and learning new technologies.</li>
+                <li>Problem solving – Analyzing challenges and finding innovative solutions.</li>
+                <li>Work ethic – Demonstrating dedicated, responsibility, and reliability.</li>
+                <li>Attention to details – Consistently deliver accurate work by carefully reviewing it.</li>
+                <li>Critical thinking – Evaluating information to make informed decisions.</li>
+            </ul>
+        </li>  
+    </ol>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tonybassilos42@outlook.com">tonybassilos42@outlook.com</a></p>
+    <p>Phone number: +961 70934522</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tony-bassilos-943547367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Tony Bassilos</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tony Bassilos. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
